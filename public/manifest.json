@@ -1,0 +1,30 @@
+{
+  "name": "Soutra Transport PWA",
+  "short_name": "Soutra SaaS",
+  "description": "Logiciel de gestion et de billetterie pour le transport interurbain sécurisé.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/bus-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/bus-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouveau Billet",
+      "short_name": "Vendre",
+      "description": "Ouvrir directement le Guichet Point de Vente",
+      "url": "/dashboard/pos"
+    }
+  ]
+}
